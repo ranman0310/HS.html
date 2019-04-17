@@ -1,0 +1,61 @@
+.top_{
+    text-align: center;
+    color:red;
+    padding: 10px 0 0 0;
+    width: 600px;
+}
+header{
+    background-color: rgb(253, 141, 159);
+}
+/* menu */
+a{
+    text-decoration: none;
+    color: red;
+}
+/* Global Menu */
+.menu{    
+    margin-bottom: 13em;    
+    position: relative;    
+    width: 100%;    
+    background-color:pink;
+    text-align: right;
+}
+ul > li{    
+    display: inline-block;
+}
+ul > li > a{    
+    padding: 15px 30px;    
+    display: block;    
+    -size: 0.8em;    
+    text-transform: uppercase;    
+    letter-spacing: .2em;
+}
+ul > li > span{    
+    margin-left: 1.2em;
+}
+ul > li:hover > a{    
+    background-color: rgb(252, 157, 157);    
+    color: #444;
+}
+/* Submenu */
+ul li ul{    
+    position: absolute;    
+    top: 55px;    
+    right: 0;
+}
+ul li ul li{    
+    display: block;
+}
+ul li ul li a{    
+    background-color: rgb(252, 157, 157);    
+    color: #444;
+}
+ul li ul li a:hover{    
+    background-color: rgb(247, 197, 197);
+}
+.menu ul li ul{
+	display: none;
+}
+.menu ul li:hover ul{
+	display: block;
+}
